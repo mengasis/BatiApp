@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ExpApp</string>
+    <string name="hint_username">Nombre de Usuario</string>
 </resources>
