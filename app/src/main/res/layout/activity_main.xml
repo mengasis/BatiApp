@@ -82,6 +82,32 @@
                     android:text="@string/text_login_button"
                     android:theme="@style/RaisedButtonDark"/>
 
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/no_tienes_cuenta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_tienes_cuenta"
+                        android:textColor="@color/editText_white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textsize_no_tienes_cuenta"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/crear_cuenta"
+                        android:textColor="@color/editText_white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textsize_no_tienes_cuenta"
+                        android:layout_toRightOf="@+id/no_tienes_cuenta"
+                        android:onClick="crearCuenta"/>
+
+                </RelativeLayout>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

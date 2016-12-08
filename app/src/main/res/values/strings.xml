@@ -3,4 +3,6 @@
     <string name="hint_username">Nombre de Usuario</string>
     <string name="hint_password">Contraseña</string>
     <string name="text_login_button">Acceder</string>
+    <string name="no_tienes_cuenta">¿No estas registrado?,&#032;</string>
+    <string name="crear_cuenta">Registrate aquí!</string>
 </resources>
