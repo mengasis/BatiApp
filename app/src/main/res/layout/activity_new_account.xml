@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.mengasis.manuel.expapp.view.NewAccountActivity"
-    android:background="@color/colorPrimary">
+    tools:context="com.mengasis.manuel.expapp.view.NewAccountActivity">
 
     <include layout="@layout/actionbar_toolbar"/>
 
@@ -28,7 +27,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:theme="@style/EditTextWhite">
+                android:theme="@style/EditTextBlack">
 
                 <android.support.design.widget.TextInputEditText
                     android:id="@+id/username"
@@ -43,7 +42,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:theme="@style/EditTextWhite">
+                android:theme="@style/EditTextBlack">
 
                 <android.support.design.widget.TextInputEditText
                     android:id="@+id/correo"
@@ -58,7 +57,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:theme="@style/EditTextWhite">
+                android:theme="@style/EditTextBlack">
 
                 <android.support.design.widget.TextInputEditText
                     android:id="@+id/password"
@@ -74,7 +73,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:theme="@style/EditTextWhite">
+                android:theme="@style/EditTextBlack">
 
                 <android.support.design.widget.TextInputEditText
                     android:id="@+id/password_confirm"
