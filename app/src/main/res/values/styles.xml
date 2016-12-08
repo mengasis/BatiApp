@@ -26,14 +26,17 @@
 
     <!--Estilos para el editText-->
     <style name="EditTextWhite" parent="TextAppearance.AppCompat">
-        <item name="android:textColorHighlight">@color/editText_white</item>
-        <item name="android:textColorLink">@color/editText_white</item>
+
         <item name="android:textColorHint">@color/editText_white</item>
         <item name="android:textSize" >@dimen/editText_login</item>
         <item name="android:textColorPrimary">@color/editText_white</item>
         <item name="colorAccent">@color/editText_white</item>
         <item name="colorControlNormal">@color/editText_white</item>
         <item name="colorControlActivated">@color/editText_white</item>
+
+        <!--Se agregan estas dos para evitar el problema del ?attr/textColorHighlight -->
+        <item name="android:textColorHighlight">@color/editText_white</item>
+        <item name="android:textColorLink">@color/editText_white</item>
     </style>
 
 </resources>
