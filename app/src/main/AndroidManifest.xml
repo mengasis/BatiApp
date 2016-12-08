@@ -15,7 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.NewAccountActivity" />
+
+        <!--Actividad hija del MainActivity-->
+        <activity android:name=".view.NewAccountActivity"
+            android:parentActivityName=".MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"
+            />
+        </activity>
+
         <activity
             android:name=".view.referencia_activity"
             android:label="@string/title_activity_referencia_activity"

@@ -17,12 +17,12 @@ public class NewAccountActivity extends AppCompatActivity {
     }
 
     // Recibira un titulo y un boton de regreso
-    public void showToolbar(String titulo, Boolean backButton){
+    public void showToolbar(String titulo, Boolean upButton){
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(titulo);
 
         // Activa o desactiva el boton de regreso
-        getSupportActionBar().setDisplayHomeAsUpEnabled(backButton);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
     }
 }
