@@ -5,4 +5,5 @@
     <dimen name="editText_login">20sp</dimen>
     <dimen name="padding_horizontal_login">32dp</dimen>
     <dimen name="textsize_no_tienes_cuenta">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

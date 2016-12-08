@@ -5,4 +5,11 @@
     <string name="text_login_button">Acceder</string>
     <string name="no_tienes_cuenta">¿No estas registrado?,&#032;</string>
     <string name="crear_cuenta">Registrate aquí!</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password_confirm">Confirmar Contraseña</string>
+    <string name="btn_crear_cuenta">Crear Cuenta</string>
+    <string name="title_activity_referencia_activity">referencia_activity</string>
+
+    <!--Titulos-->
+    <string name="titulo_crear_cuenta">Crear Cuenta</string>
 </resources>
