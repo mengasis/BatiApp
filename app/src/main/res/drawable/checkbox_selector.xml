@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:drawable="@drawable/bat_no_check"
+        android:drawable="@drawable/bat_check"
         android:state_checked="false">
     </item>
     <item
@@ -9,6 +9,6 @@
         android:state_checked="true">
     </item>
     <item
-        android:drawable="@drawable/bat_no_check">
+        android:drawable="@drawable/bat_check">
     </item>
 </selector>

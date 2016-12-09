@@ -12,4 +12,7 @@
 
     <!--Titulos-->
     <string name="titulo_crear_cuenta">Crear Cuenta</string>
+    <string name="username_card">Killing Joke</string>
+    <string name="time_card">4 Dias</string>
+    <string name="firstWord">La broma asesina</string>
 </resources>
