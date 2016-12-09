@@ -16,20 +16,19 @@
             </intent-filter>
         </activity>
 
-        <!--Actividad hija del MainActivity-->
-        <activity android:name=".view.NewAccountActivity"
-            android:parentActivityName=".MainActivity"
-            >
+        <!-- Actividad hija del MainActivity -->
+        <activity
+            android:name=".view.NewAccountActivity"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"
-            />
+                android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".view.referencia_activity"
             android:label="@string/title_activity_referencia_activity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.ContainerActivity"></activity>
     </application>
 
 </manifest>

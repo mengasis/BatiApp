@@ -15,4 +15,7 @@
     <string name="username_card">Killing Joke</string>
     <string name="time_card">4 Dias</string>
     <string name="firstWord">La broma asesina</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
