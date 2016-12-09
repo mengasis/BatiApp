@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.mengasis.manuel.expapp.view.ContainerActivity;
 import com.mengasis.manuel.expapp.view.NewAccountActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+    }
+
+    public void login(View view){
+        Intent intent = new Intent(this, ContainerActivity.class);
+        startActivity(intent);
     }
 
     public void crearCuenta(View view){
