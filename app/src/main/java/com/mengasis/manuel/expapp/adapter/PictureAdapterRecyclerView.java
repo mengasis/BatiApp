@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.mengasis.manuel.expapp.R;
 import com.mengasis.manuel.expapp.model.Picture;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -45,6 +46,8 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         holder.usernameCard.setText(picture.getUsername());
         holder.timeCard.setText(picture.getTime());
         holder.linkeNumberCard.setText(picture.getLike());
+        Picasso.with(activity).load(picture.getPicture()).into(holder.pictureCard);
+
 
 
     }
@@ -57,7 +60,7 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
 
     public class PictureViewHolder extends RecyclerView.ViewHolder {
 
-        //private ImageView pictureCard;
+        private ImageView pictureCard;
         private TextView usernameCard;
         private TextView timeCard;
         private TextView linkeNumberCard;
@@ -65,7 +68,7 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         public PictureViewHolder(View itemView) {
             super(itemView);
 
-            //pictureCard = (ImageView) itemView.findViewById(R.id.image_card);
+            pictureCard = (ImageView) itemView.findViewById(R.id.image_card);
             usernameCard = (TextView) itemView.findViewById(R.id.username_card);
             timeCard = (TextView) itemView.findViewById(R.id.time_card);
             linkeNumberCard = (TextView) itemView.findViewById(R.id.like_number_card);

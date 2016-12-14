@@ -55,11 +55,11 @@ public class HomeFragment extends Fragment {
 
     public ArrayList<Picture> buidPictures(){
         ArrayList<Picture> pictures = new ArrayList<Picture>();
-        pictures.add(new Picture("Bruce Wayne", "http://www.novalandtours.com/images/guide/guilin.jpg", "100 dias", "100"));
-        pictures.add(new Picture("Dick Grayson", "http://www.novalandtours.com/images/guide/guilin.jpg", "60 dias", "80"));
-        pictures.add(new Picture("Jason Todd", "http://www.novalandtours.com/images/guide/guilin.jpg", "55 dias", "75"));
-        pictures.add(new Picture("Tim Drake", "http://www.novalandtours.com/images/guide/guilin.jpg", "40 dias", "70"));
-        pictures.add(new Picture("Damian Wayne", "http://www.novalandtours.com/images/guide/guilin.jpg", "10 dias", "40"));
+        pictures.add(new Picture("Bruce Wayne", "https://i.kinja-img.com/gawker-media/image/upload/s--WEKTrINQ--/c_fit,fl_progressive,q_80,w_636/suaimrstjyxxunpmrfqr.jpg", "100 dias", "100"));
+        pictures.add(new Picture("Dick Grayson", "http://dualpixels.com/wp-content/uploads/2015/06/news_illustre_1365000389_224-e1434075039752.jpg", "60 dias", "80"));
+        pictures.add(new Picture("Jason Todd", "http://static.srcdn.com/wp-content/uploads/redhood-2-dcrebirth.jpg", "55 dias", "75"));
+        pictures.add(new Picture("Tim Drake", "https://i.ytimg.com/vi/Jhp4ygmsO_k/maxresdefault.jpg", "40 dias", "70"));
+        pictures.add(new Picture("Damian Wayne", "http://media.dcentertainment.com/sites/default/files/GalleryChar_1900x900_DamianWayne_52ab7536d3f7a0.28359128.jpg", "10 dias", "40"));
 
         return pictures;
     }
