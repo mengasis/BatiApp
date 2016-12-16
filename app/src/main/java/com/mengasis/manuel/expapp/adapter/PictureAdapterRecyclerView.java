@@ -1,6 +1,7 @@
 package com.mengasis.manuel.expapp.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import com.mengasis.manuel.expapp.R;
 import com.mengasis.manuel.expapp.model.Picture;
+import com.mengasis.manuel.expapp.view.PictureDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -47,6 +49,15 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         holder.timeCard.setText(picture.getTime());
         holder.linkeNumberCard.setText(picture.getLike());
         Picasso.with(activity).load(picture.getPicture()).into(holder.pictureCard);
+
+        // Al dar click en una imagen del RecylerView cambiara de actividad.
+        holder.pictureCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(activity, PictureDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
 
 
 

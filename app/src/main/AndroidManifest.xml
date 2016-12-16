@@ -37,7 +37,14 @@
             android:name=".view.referencia_activity"
             android:label="@string/title_activity_referencia_activity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".view.PictureDetailActivity"></activity>
+
+        <activity android:name=".view.PictureDetailActivity"
+            android:parentActivityName=".view.ContainerActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.ContainerActivity" />
+        </activity>
     </application>
 
 </manifest>
