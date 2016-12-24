@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--Se coloca los estilos para el boton de Login-->
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Estilos para el editText-->
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+
+        <item name="android:textColorHint">@color/editText_white</item>
+        <item name="android:textSize">@dimen/editText_login</item>
+        <item name="android:textColorPrimary">@color/editText_white</item>
+        <item name="colorAccent">@color/editText_white</item>
+        <item name="colorControlNormal">@color/editText_white</item>
+        <item name="colorControlActivated">@color/editText_white</item>
+
+        <!--Se agregan estas dos para evitar el problema del ?attr/textColorHighlight -->
+        <item name="android:textColorHighlight">@color/editText_white</item>
+        <item name="android:textColorLink">@color/editText_white</item>
+    </style>
+
+    <!--Estilos para el editText-->
+    <style name="EditTextBlack" parent="TextAppearance.AppCompat">
+
+        <item name="android:textColorHint">@color/editText_black</item>
+        <item name="android:textSize">@dimen/editText_login</item>
+        <item name="android:textColorPrimary">@color/editText_black</item>
+        <item name="colorAccent">@color/editText_black</item>
+        <item name="colorControlNormal">@color/editText_black</item>
+        <item name="colorControlActivated">@color/editText_black</item>
+
+        <!--Se agregan estas dos para evitar el problema del ?attr/textColorHighlight -->
+        <item name="android:textColorHighlight">@color/editText_black</item>
+        <item name="android:textColorLink">@color/editText_black</item>
+    </style>
+
+</resources>

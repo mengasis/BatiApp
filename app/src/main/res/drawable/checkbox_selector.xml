@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/bat_check"
+        android:state_checked="false">
+    </item>
+    <item
+        android:drawable="@drawable/bat_done"
+        android:state_checked="true">
+    </item>
+    <item
+        android:drawable="@drawable/bat_check">
+    </item>
+</selector>
